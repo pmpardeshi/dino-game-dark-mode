@@ -45,7 +45,8 @@ but scrapped the idea later as this library needs root permissions for ubuntu an
 + Being beginner, I prefer doing everything from scratch, it helps me better understand the concepts
 
 ### Helpful notes
-+ pixel cordinates start at (0,0) from top left corner of the screen, x coordinates increase towards right, y coordinates increase towards bottom 
++ Pixel cordinates start at (0,0) from top left corner of the screen, x coordinates increase towards right, y coordinates increase towards bottom 
 + wrong version of chromedriver gives
   ``` ChromeDriver error “unknown error: cannot get automation extension”```
-  if this error occures update chromedriver(preffered) or downgrade chrome browser
+  if this error occures update chromedriver(preferred) or downgrade chrome browser
++ In terms of grayscale image 255 is absolute white and 0 is absolute black color
