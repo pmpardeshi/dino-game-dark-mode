@@ -50,3 +50,11 @@ but scrapped the idea later as this library needs root permissions for ubuntu an
   ``` ChromeDriver error “unknown error: cannot get automation extension”```
   if this error occures update chromedriver(preferred) or downgrade chrome browser
 + In terms of grayscale image 255 is absolute white and 0 is absolute black color
+
+
+### Limitations 
++ The code responds at constant speed while speed of game keeps on increasing, at one point the speed of game exceeds the response speed and dino collides. The highest score achived so far is 2113
+
+
+
+
