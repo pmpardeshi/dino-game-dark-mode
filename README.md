@@ -43,3 +43,9 @@ but scrapped the idea later as this library needs root permissions for ubuntu an
   pixel values for each screen may differ based on its resolution. so I would have to change pixel values in original code to make it work on my pc but then the code would not work on original authors pc.
 
 + Being beginner, I prefer doing everything from scratch, it helps me better understand the concepts
+
+### Helpful notes
++ pixel cordinates start at (0,0) from top left corner of the screen, x coordinates increase towards right, y coordinates increase towards bottom 
++ wrong version of chromedriver gives
+  ``` ChromeDriver error “unknown error: cannot get automation extension”```
+  if this error occures update chromedriver(preffered) or downgrade chrome browser
