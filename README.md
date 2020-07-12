@@ -11,7 +11,7 @@ All you need to know is in [this article](https://medium.com/analytics-vidhya/au
   3. Automatic switch to chrome window 
 
 #### Linux Support 
-ImageGrab is not supported in linux, its replacement is [pyscreenshot](https://pypi.org/project/pyscreenshot/) and pyautogui also has builtin [screenshot](https://pyautogui.readthedocs.io/en/latest/screenshot.html) method but they are slow and inconsistent.
+```ImageGrab``` is not supported in linux, its replacement is [pyscreenshot](https://pypi.org/project/pyscreenshot/) and ```pyautogui``` also has built-in [screenshot](https://pyautogui.readthedocs.io/en/latest/screenshot.html) method but both are slow and inconsistent.
 [mss](https://python-mss.readthedocs.io/examples.html#pil) fixes these issues, its both fast and cross-platform.
 
 #### Handle dark mode 
@@ -27,7 +27,7 @@ these steps are automated using [webdrivers](https://www.selenium.dev/documentat
 #### Others
 * The game only uses keyboard inputs so initially I considered using [keyboard](https://pypi.org/project/keyboard/) library as its relatively small. 
 but scrapped the idea later as this library needs root permissions for ubuntu and is still in beta phase.
-* I also considered ```OpenCv``` but lot of online forums suggested using ```PIL``` for simple tasks as its lightweight and simple
+* I also considered ```OpenCv``` but lot of online forums suggested using ```PIL``` for basic tasks as its lightweight and simple
 
 ### How to run 
 + Install ```python3.5+``` ([preferably 3.7](https://linuxize.com/post/how-to-install-python-3-7-on-ubuntu-18-04/)). 
@@ -38,3 +38,8 @@ but scrapped the idea later as this library needs root permissions for ubuntu an
 + Run ``` pip3 install -r requirement.txt ```
 + Run ``` python3 dino.py ```
 
+### Why did I not fork and contribute in original code ?
++ #### Pixel values 
+  pixel values for each screen may differ based on its resolution. so I would have to change pixel values in original code to make it work on my pc but then the code would not work on original authors pc.
+
++ Being beginner, I prefer doing everything from scratch, it helps me better understand the concepts
